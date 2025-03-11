@@ -1,0 +1,525 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>👩‍💻 Web Development</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+
+
+
+<style>.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  width: 40%;
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 40px;
+  color: #007bff;
+}
+
+.hidden {
+  display: none;
+}
+
+#dynamic-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}</style>
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#stats"><i class="bi bi-images navicon"></i><span>Experience</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Projects</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="">
+
+      <div class="container d-flex justify-content-end" data-aos="zoom-out">
+        <div class="row">
+          <div class="col-lg-9 text-end">
+            <h3>Hi it's <strong><span>MONIKA</span></strong> </h3>
+            
+            <h4>
+              I'm a <span class="typed" data-typed-items="Web Developer, Frontend Developer, Designer,Software Developer">Software Developer</span>
+              <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+            </h4>
+      
+            <div class="social-links">
+              <div class="main">
+                <div class="up">
+                  <button class="card1">
+                    <a href=""></a>
+                    <i class="bi bi-facebook" style="font-size: 30px;"></i>
+                  </button>
+                  <a href="https://github.com/monikaips" target="_blank">
+                    <button class="card2">
+                      <i class="bi bi-github" style="font-size: 30px;"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="down">
+                  <button class="card3">
+                    <i class="bi bi-envelope-fill" style="font-size: 30px;"></i>
+                  </button>
+                  <button class="card4">
+                    <a href="https://www.linkedin.com/in/monika-p-30b32a22a/" target="_blank" style="text-decoration: none; color: inherit;">
+                      <i class="bi bi-linkedin" style="font-size: 30px;"></i>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+           
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+
+ <!-- About Section -->
+ <section id="about">
+    <div class="container section-title text-center" data-aos="fade-up">
+      <h2 class="fw-bold">About Me</h2>
+      <p class="lead">Aspiring Full-Stack Developer | Web Enthusiast | Tech Innovator</p>
+  </div>
+  
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 align-items-center justify-content-center">
+          <div class="col-lg-4 text-center">
+              <div class="book">
+                  <div class="cover">
+                      <p>MONIKA P</p>
+                  </div>
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="assets/img/profile-img.jpg" class="img-fluid  shadow-lg mb-3" alt="Monika P">
+                    <a href="assets/Monika_Resume.pdf" class="btn-custom-btn" target="_blank">Resume &#8594;</a>
+                  </div>
+                  
+                  
+                </div>
+          </div>
+  
+          <div class="col-lg-8 content glass-effect">
+              <h3 class="fw-bold text-primary">Full-Stack Developer & Web Enthusiast</h3>
+              <p class="fst-italic py-2">
+                  A final-year <strong>Computer Science & Engineering</strong> student at <strong>Government College of Engineering, Salem</strong>, passionate about designing and building scalable web applications with a seamless user experience.
+              </p>
+            
+              <p class="py-2">
+                  Dedicated to crafting dynamic and engaging digital experiences. Skilled in frontend and backend development, with a knack for problem-solving and innovative solutions.
+              </p>
+              <a href="#stats" class="btn" target="_blank">Explore Now &#8594;</a>
+             
+              
+          </div>
+          
+      </div>
+  </div>
+
+</section>
+    <!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row gy-4">
+         
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-code-slash"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="2" class="purecounter"></span>
+              <p>Projects Completed</p>
+            </div>
+          </div><!-- End Stats Item -->
+    
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-file-code"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="188" data-purecounter-duration="3" class="purecounter"></span>
+              <p>GitHub Commits</p>
+            </div>
+          </div><!-- End Stats Item -->
+    
+         
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-award"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="2" class="purecounter"></span>
+              <p>Certifications Earned</p>
+            </div>
+          </div><!-- End Stats Item -->
+    
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-person-check"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="2" class="purecounter"></span>
+              <p>Juniors Mentored</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          
+    
+        </div>
+<br><br>
+        <!-- Experience Section (Responsive Single Row) -->
+<div class="container" data-aos="fade-up" data-aos-delay="200">
+  <h2 class="text-center">Experience</h2>
+  <h1>Experience</h1>
+  <div class="experience-row d-flex justify-content-center align-items-center flex-wrap">
+    <div class="experience-item">
+      <i class="bi bi-building"></i>
+      <h3>Forge Innovation & Ventures, Salem</h3>
+      <p>Software Modelling Intern</p>
+      <span>Feb 2025 - Present</span>
+  </div>  
+    
+    <div class="experience-item">
+          <i class="bi bi-building"></i>
+          <h3>Forge Innovation & Ventures, Salem</h3>
+          <p>Graduate Innovation Engineer Trainee</p>
+          <span>Feb 2024 - July 2024</span>
+      </div>
+
+      <div class="experience-item">
+          <i class="bi bi-building"></i>
+          <h3>NoviTech R&D Pvt Ltd</h3>
+          <p>Full Stack Developer Intern</p>
+          <span>Apr 2024 - May 2024</span>
+      </div>
+  </div>
+</div>
+      </div>
+
+    
+    </section>
+    
+    <!-- /Stats Section -->
+
+
+    <!-- Services Section -->
+  
+    
+    <section id="services" class="services section">
+      <div class="container section-title">
+          <h2>Projects</h2>
+          <p>Providing solutions in web development, app design, and mentoring students in technology.</p>
+      </div>
+
+      <div class="container">
+          <div class="row gy-4">
+
+              <div class="service-item">
+                  <a href="web-dev.html">
+                      <div class="icon"><i class="bi bi-code-slash"></i></div>
+                      <h3>Web Development</h3>
+                      <p>Building responsive and dynamic websites using HTML, CSS, JavaScript, React, and Firebase.</p>
+                      <h1>--></h1>
+                    </a>
+           
+              </div>
+
+              <div class="service-item">
+                  <a href="uiux.html">
+                      <div class="icon"><i class="bi bi-palette"></i></div>
+                      <h3>UI/UX Design</h3>
+                      <p>Designing modern and user-friendly interfaces using Figma and front-end technologies.</p>
+                      <h1>--></h1>
+                    </a>
+              </div>
+
+              <div class="service-item">
+                  <a href="ml.html">
+                      <div class="icon"><i class="bi bi-graph-up"></i></div>
+                      <h3>Machine Learning</h3>
+                      <p>Building AI models for data analysis, predictions, and automation.</p>
+                      <h1>--></h1>
+                    </a>
+              </div>
+
+              <div class="service-item">
+                  <a href="iot.html">
+                      <div class="icon"><i class="bi bi-motherboard"></i></div>
+                      <h3>Internet of Things (IoT)</h3>
+                      <p>Developing smart systems and embedded solutions for real-world applications.</p>
+                      <h1>--></h1>
+                    </a>
+              </div>
+
+          </div>
+      </div>
+  </section>
+    <!-- /Services Section -->
+
+  <!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="contact section" style="background: #ffffff; padding: 60px 0;">
+
+  <!-- Section Title -->
+  <div class="container section-title text-center" data-aos="fade-up">
+    <h2 style="color: #1e3c72; font-weight: bold;">Contact</h2>
+    <p style="color: #555; font-size: 1.1rem;">Feel free to reach out for collaborations, mentorship, or any tech-related queries.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade" data-aos-delay="100">
+    <div class="row gy-4 align-items-center">
+      
+      <div class="col-lg-5">
+        <div class="info-item d-flex align-items-center p-3 shadow-sm rounded" style="background: #fff; border-left: 5px solid #1e3c72;" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-geo-alt flex-shrink-0" style="font-size: 1.5rem; color: #1e3c72; margin-right: 15px;"></i>
+          <div >
+            <h3 style="color: #1e3c72;">Location</h3>
+            <p style="color: #555;">Salem, Tamil Nadu, India</p>
+          </div>
+        </div><!-- End Info Item -->
+        <hr>
+        <div class="info-item d-flex align-items-center p-3 shadow-sm rounded" style="background: #fff; border-left: 5px solid #1e3c72;" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-telephone flex-shrink-0" style="font-size: 1.5rem; color: #1e3c72; margin-right: 15px;"></i>
+          <div>
+            <h3 style="color: #1e3c72;">Phone</h3>
+            <p style="color: #555;">+91 8778957646</p>
+          </div>
+        </div><!-- End Info Item -->
+        <hr>
+        <div class="info-item d-flex align-items-center p-3 shadow-sm rounded" style="background: #fff; border-left: 5px solid #1e3c72;" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-envelope flex-shrink-0" style="font-size: 1.5rem; color: #1e3c72; margin-right: 15px;"></i>
+          <div>
+            <h3 style="color: #1e3c72;">Email</h3>
+            <p style="color: #555;">jpmonika3004@gmail.com</p>
+          </div>
+        </div><!-- End Info Item -->
+        <hr>
+        <div class="info-item d-flex align-items-center p-3 shadow-sm rounded" style="background: #fff; border-left: 5px solid #1e3c72;" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-linkedin flex-shrink-0" style="font-size: 1.5rem; color: #1e3c72; margin-right: 15px;"></i>
+          <div>
+            <h3 style="color: #1e3c72;">LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/monika-p-30b32a22a/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: bold;">linkedin.com/in/monika-p</a></p>
+          </div>
+        </div><!-- End Info Item -->
+      </div>
+
+      <div class="col-lg-6 offset-lg-1">
+        <div class="contact-container">
+          <div class="contact-box">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="https://formspree.io/f/mrbenkpw" method="POST">
+              <div class="input-box">
+                <input type="text" name="name" required>
+                <label>Your Name</label>
+              </div>
+              <div class="input-box">
+                <input type="email" name="email" required>
+                <label>Your Email</label>
+              </div>
+              <div class="input-box">
+                <input type="text" name="subject" required>
+                <label>Subject</label>
+              </div>
+              <div class="input-box textarea-box">
+                <textarea name="message" rows="4" required></textarea>
+                <label>Message</label>
+              </div>
+              <button class="btn" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  </main>
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Monika P</h3>
+      <p>Passionate about web development, app design, and mentoring aspiring developers.</p>
+      
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/Monikaips" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/monika-p-30b32a22a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+     
+        <a href="mailto:jpmonika3004@gmail.com"><i class="bi bi-envelope"></i></a>
+      </div>
+  
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright &copy;</span> <strong class="px-1 sitename">Monika P</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed & Built by <strong>Monika P</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    function showSection(category) {
+    let sectionTitle = document.getElementById("section-title");
+    let sectionSkills = document.getElementById("section-skills");
+    let projectsDiv = document.getElementById("projects");
+    let dynamicSection = document.getElementById("dynamic-section");
+
+    let data = {
+        webDevelopment: {
+            title: "Web Development",
+            skills: "Skills: HTML, CSS, Bootstrap, React.js, Firebase",
+            projects: [
+                "Portfolio Website",
+                "E-commerce Site",
+                "Weather App",
+                "Expense Tracker"
+            ]
+        },
+        uiux: {
+            title: "UI/UX Design",
+            skills: "Skills: Figma, Adobe XD, Wireframing, Prototyping",
+            projects: [
+                "Mobile App UI",
+                "Dashboard UI",
+                "Redesign Website",
+                "Dark Mode Concept"
+            ]
+        },
+        machineLearning: {
+            title: "Machine Learning",
+            skills: "Skills: Python, TensorFlow, NLP, Data Science",
+            projects: [
+                "Spam Detector",
+                "AI Chatbot",
+                "Image Classifier",
+                "Predictive Analytics"
+            ]
+        },
+        iot: {
+            title: "IoT",
+            skills: "Skills: Arduino, Raspberry Pi, Sensors, MQTT",
+            projects: [
+                "Smart Home System",
+                "IoT-Based Weather Monitoring",
+                "Healthcare Alert System",
+                "Automated Traffic System"
+            ]
+        }
+    };
+
+    // Update Section
+    sectionTitle.innerText = data[category].title;
+    sectionSkills.innerText = data[category].skills;
+    
+    // Display Projects
+    projectsDiv.innerHTML = "";
+    data[category].projects.forEach(project => {
+        let projectItem = document.createElement("p");
+        projectItem.innerText = project;
+        projectsDiv.appendChild(projectItem);
+    });
+
+    // Show Section
+    dynamicSection.classList.remove("hidden");
+}
+
+  </script>
+
+</body>
+
+</html>

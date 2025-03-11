@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <section id="uiux" class="myskill">
+        <button onclick="goBack()" class="back-btn">← Back</button>
+
+        <h2>UI/UX Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fas fa-palette"></i>
+                <h3>Figma, Adobe XD</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-vector-square"></i>
+                <h3>Wireframing & Prototyping</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-user-check"></i>
+                <h3>Usability Testing</h3>
+            </div>
+        </div>
+
+        <h2>Projects</h2>
+       
+       
+ 
+       <!-- Portfolio Section -->
+       <div class="container">
+        <div class="card__container">
+            
+        </div>
+    </div>
+
+     </section>
+
+     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <script>
+      function goBack() {
+    if (window.history.length > 1) {
+        window.history.back();
+    } else {
+        window.location.href = "index.html";  // Change to your homepage
+    }
+}
+
+
+    </script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
